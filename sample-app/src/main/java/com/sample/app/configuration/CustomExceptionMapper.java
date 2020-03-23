@@ -15,8 +15,8 @@ import javax.ws.rs.ext.Provider;
  *
  * @author Fabio Carvalho (facarvalho@paypal.com or fabiocarvalho777@gmail.com)
  */
-@Component
-@Provider
+//@Component
+//@Provider
 public class CustomExceptionMapper implements ExceptionMapper<NotFoundException> {
 
     @Autowired

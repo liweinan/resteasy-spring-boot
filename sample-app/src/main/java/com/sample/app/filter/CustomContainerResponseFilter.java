@@ -17,8 +17,8 @@ import java.io.IOException;
  *
  * @author Fabio Carvalho (facarvalho@paypal.com or fabiocarvalho777@gmail.com)
  */
-@Component
-@Provider
+//@Component
+//@Provider
 public class CustomContainerResponseFilter implements ContainerResponseFilter {
 
     @Autowired

@@ -3,16 +3,16 @@ resteasy:
     app:
       registration: property
       classes: com.sample.app.configuration.JaxrsApplication
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - health
-          - shutdown
-  endpoint:
-    shutdown:
-      enabled: true
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#          - health
+#          - shutdown
+#  endpoint:
+#    shutdown:
+#      enabled: true
 logging:
   level:
     org:

@@ -11,6 +11,6 @@ import javax.ws.rs.core.Application;
  * @author Fabio Carvalho (facarvalho@paypal.com or fabiocarvalho777@gmail.com)
  */
 @Component
-@ApplicationPath("/sample-app/")
+@ApplicationPath("/")
 public class JaxrsApplication extends Application {
 }
